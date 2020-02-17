@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProductActivity"
+    android:background="@color/colorAccent"
+    >
+
+    <ImageView
+        android:id="@+id/p4"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:src="@drawable/p4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="452dp"
+        >
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/p3"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:src="@drawable/p3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="342dp"
+        >
+
+    </ImageView>
+    <ImageView
+        android:id="@+id/register_applogo"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/applogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        >
+
+    </ImageView>
+    <ImageView
+        android:id="@+id/p1"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:src="@drawable/p1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="122dp"
+        >
+
+    </ImageView>
+    <ImageView
+        android:id="@+id/p2"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:src="@drawable/p2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="232dp"
+        >
+
+    </ImageView>
+
+    <Button
+        android:id="@+id/gotocart_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/buttons"
+        android:padding="20dp"
+        android:textSize="28sp"
+        android:layout_above="@+id/main_login_now_btn"
+        android:text="GO TO CART"
+        android:textColor="@android:color/white"
+
+        />
+
+
+
+
+</RelativeLayout>
